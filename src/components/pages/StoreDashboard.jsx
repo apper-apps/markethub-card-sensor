@@ -15,7 +15,7 @@ const StoreDashboard = () => {
 
   useEffect(() => {
     loadData()
-  }, [])
+  }, [
 
   const loadData = async () => {
     try {
