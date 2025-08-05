@@ -13,9 +13,9 @@ const StoreDashboard = () => {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState("")
 
-  useEffect(() => {
+useEffect(() => {
     loadData()
-  }, [
+  }, [])
 
   const loadData = async () => {
     try {
