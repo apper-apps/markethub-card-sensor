@@ -96,7 +96,7 @@ const StoreDashboard = () => {
           Welcome to MarketHub
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-          Your one-stop destination for shopping across multiple categories. 
+          Your one-stop destination for shopping across multiple categories..
           Discover electronics, groceries, toys, stationery, and furniture all in one place.
         </p>
       </motion.div>
