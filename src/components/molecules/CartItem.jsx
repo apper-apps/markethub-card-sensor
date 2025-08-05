@@ -6,7 +6,8 @@ import Button from "@/components/atoms/Button"
 import { cartService } from "@/services/api/cartService"
 
 const CartItem = ({ item, product, onUpdate }) => {
-  const handleQuantityChange = async (newQuantity) => {
+const handleQuantityChange = async (newQuantity) => {
+    try {
       if (newQuantity < 1) {
         await cartService.removeFromCart(product.Id)
         toast.success("Item removed from cart")
